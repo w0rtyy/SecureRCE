@@ -1220,3 +1220,4 @@ NameError: name 'session_key' is not defined
 2026-03-03 21:23:55,962 [WARNING] CLI error from ('127.0.0.1', 49941): 0 bytes read on a total of 4 expected bytes
 2026-03-03 21:23:58,573 [WARNING] Agent ('127.0.0.1', 49940) disconnected: 0 bytes read on a total of 4 expected bytes
 2026-03-03 21:23:58,573 [INFO] AUDIT: Agent disconnected: agent-002
+2026-03-10 22:28:25,837 [INFO] Server started - agent port 9001, CLI port 9002
