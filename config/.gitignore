@@ -1,0 +1,6 @@
+# /c2/config/.gitignore
+# NEVER commit tokens to version control
+*.json
+*.token
+*.key
+*.psk

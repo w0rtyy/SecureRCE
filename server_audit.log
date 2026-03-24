@@ -1221,3 +1221,21 @@ NameError: name 'session_key' is not defined
 2026-03-03 21:23:58,573 [WARNING] Agent ('127.0.0.1', 49940) disconnected: 0 bytes read on a total of 4 expected bytes
 2026-03-03 21:23:58,573 [INFO] AUDIT: Agent disconnected: agent-002
 2026-03-10 22:28:25,837 [INFO] Server started - agent port 9001, CLI port 9002
+2026-03-24 22:42:04,434 [INFO] Server started — agent port 9001, CLI port 9002
+2026-03-24 22:42:18,594 [INFO] Agent connection from ('127.0.0.1', 50456)
+2026-03-24 22:42:18,619 [INFO] Handshake completed with ('127.0.0.1', 50456)
+2026-03-24 22:42:18,619 [INFO] AUDIT: Auth ok for agent_id: agent-002 from ('127.0.0.1', 50456)
+2026-03-24 22:42:18,619 [INFO] AUDIT: Agent registered: agent-002
+2026-03-24 22:42:29,996 [INFO] CLI connection from ('127.0.0.1', 50457)
+2026-03-24 22:42:30,001 [INFO] CLI handshake completed with ('127.0.0.1', 50457)
+2026-03-24 22:42:30,036 [INFO] AUDIT: CLI auth ok for operator: operator-001 from ('127.0.0.1', 50457)
+2026-03-24 22:42:35,809 [INFO] AUDIT: operator=operator-001 requested command on agent=agent-002: ls
+2026-03-24 22:42:35,810 [INFO] Dispatching job_id=job-355809 to agent=agent-002
+2026-03-24 22:42:35,810 [INFO] AUDIT: Dispatched job_id=job-355809 to agent=agent-002: ls
+2026-03-24 22:42:41,218 [INFO] AUDIT: operator=operator-001 requested command on agent=agent-002: pwd
+2026-03-24 22:42:41,219 [INFO] Dispatching job_id=job-361219 to agent=agent-002
+2026-03-24 22:42:41,219 [INFO] AUDIT: Dispatched job_id=job-361219 to agent=agent-002: pwd
+2026-03-24 22:42:47,401 [WARNING] CLI ('127.0.0.1', 50457) disconnected: 0 bytes read on a total of 4 expected bytes
+2026-03-24 22:42:47,401 [INFO] AUDIT: CLI operator operator-001 disconnected from ('127.0.0.1', 50457)
+2026-03-24 22:42:49,292 [WARNING] Agent ('127.0.0.1', 50456) disconnected: 0 bytes read on a total of 4 expected bytes
+2026-03-24 22:42:49,293 [INFO] AUDIT: Agent disconnected: agent-002
