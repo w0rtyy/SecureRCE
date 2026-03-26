@@ -180,7 +180,7 @@ pip3 install cryptography
 ## Building
 
 ```bash
-git clone https://github.com/your-username/securerce.git
+git clone https://github.com/w0rtyy/SecureRCE.git
 cd securerce
 make
 ```
