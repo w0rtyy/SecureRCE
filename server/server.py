@@ -17,6 +17,7 @@ import os
 import logging
 import json
 import time
+import hmac
 from dataclasses import dataclass, field
 from typing import Optional
 from datetime import datetime
@@ -346,7 +347,6 @@ async def handle_cli(reader: asyncio.StreamReader, writer: asyncio.StreamWriter)
 
         # ── Step 3: Validate token ──
         # Iterate all known tokens so no single early-exit leaks *which* entry matched.  hmac.compare_digest gives constant-time byte comparison.
-        import hmac
         matched_id = None
         for oid, known_token in KNOWN_CLI_TOKENS.items():
             if hmac.compare_digest(known_token, auth_payload):

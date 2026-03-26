@@ -1239,3 +1239,30 @@ NameError: name 'session_key' is not defined
 2026-03-24 22:42:47,401 [INFO] AUDIT: CLI operator operator-001 disconnected from ('127.0.0.1', 50457)
 2026-03-24 22:42:49,292 [WARNING] Agent ('127.0.0.1', 50456) disconnected: 0 bytes read on a total of 4 expected bytes
 2026-03-24 22:42:49,293 [INFO] AUDIT: Agent disconnected: agent-002
+2026-03-26 13:52:39,299 [INFO] Server started — agent port 9001, CLI port 9002
+2026-03-26 13:52:46,308 [INFO] Agent connection from ('127.0.0.1', 50687)
+2026-03-26 13:52:46,352 [INFO] Handshake completed with ('127.0.0.1', 50687)
+2026-03-26 13:52:46,353 [INFO] AUDIT: Auth ok for agent_id: agent-002 from ('127.0.0.1', 50687)
+2026-03-26 13:52:46,353 [INFO] AUDIT: Agent registered: agent-002
+2026-03-26 13:52:57,173 [INFO] CLI connection from ('127.0.0.1', 50689)
+2026-03-26 13:52:57,176 [INFO] CLI handshake completed with ('127.0.0.1', 50689)
+2026-03-26 13:52:57,177 [INFO] AUDIT: CLI auth ok for operator: operator-001 from ('127.0.0.1', 50689)
+2026-03-26 13:53:00,190 [INFO] AUDIT: operator=operator-001 requested command on agent=agent-002: ls
+2026-03-26 13:53:00,190 [INFO] Dispatching job_id=job-380190 to agent=agent-002
+2026-03-26 13:53:00,191 [INFO] AUDIT: Dispatched job_id=job-380190 to agent=agent-002: ls
+2026-03-26 13:53:00,193 [WARNING] Agent ('127.0.0.1', 50687) disconnected: 0 bytes read on a total of 4 expected bytes
+2026-03-26 13:53:00,193 [INFO] AUDIT: Agent disconnected: agent-002
+2026-03-26 13:53:10,533 [INFO] Agent connection from ('127.0.0.1', 50690)
+2026-03-26 13:53:10,539 [INFO] Handshake completed with ('127.0.0.1', 50690)
+2026-03-26 13:53:10,539 [INFO] AUDIT: Auth ok for agent_id: agent-002 from ('127.0.0.1', 50690)
+2026-03-26 13:53:10,540 [INFO] AUDIT: Agent registered: agent-002
+2026-03-26 13:53:13,093 [INFO] CLI connection from ('127.0.0.1', 50691)
+2026-03-26 13:53:13,098 [INFO] CLI handshake completed with ('127.0.0.1', 50691)
+2026-03-26 13:53:13,098 [INFO] AUDIT: CLI auth ok for operator: operator-001 from ('127.0.0.1', 50691)
+2026-03-26 13:53:15,383 [INFO] AUDIT: operator=operator-001 requested command on agent=agent-002: ls
+2026-03-26 13:53:15,383 [INFO] Dispatching job_id=job-395383 to agent=agent-002
+2026-03-26 13:53:15,383 [INFO] AUDIT: Dispatched job_id=job-395383 to agent=agent-002: ls
+2026-03-26 13:53:15,384 [WARNING] Agent ('127.0.0.1', 50690) disconnected: 0 bytes read on a total of 4 expected bytes
+2026-03-26 13:53:15,384 [INFO] AUDIT: Agent disconnected: agent-002
+2026-03-26 13:54:52,968 [INFO] AUDIT: CLI operator operator-001 disconnected from ('127.0.0.1', 50689)
+2026-03-26 13:54:52,970 [INFO] AUDIT: CLI operator operator-001 disconnected from ('127.0.0.1', 50691)
