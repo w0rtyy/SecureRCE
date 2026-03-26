@@ -401,6 +401,7 @@ A plain `==` on byte strings short-circuits on the first mismatched byte, leakin
 - **No sequence numbers** — frames carry no counter, so a man-in-the-middle who records a session and replays it within the same TCP connection could in theory inject old messages. Adding a monotonic nonce would close this.
 - **Tokens hardcoded in source** — production use should load tokens from environment variables or a secrets manager.
 - **No agent heartbeat** — the server only discovers a dead agent when it tries to send a job. A periodic ping/pong would enable faster failure detection.
+- - **Non-interactive Shell** — - The shell is non-interactive. Commands that require direct user interaction (e.g., `vim`, `nano`, `top`) may not function correctly and   can cause the session to appear unresponsive. Programs expecting a TTY or interactive input are not supported.
 
 ---
 
