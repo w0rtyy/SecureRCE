@@ -18,7 +18,12 @@ __pycache__/
 
 # macOS junk
 .DS_Store
+**/.DS_Store
 
 # Editor folders
 .vscode/
 .idea/
+
+# macOS debug symbols
+*.dSYM/
+*.dSYM/**
