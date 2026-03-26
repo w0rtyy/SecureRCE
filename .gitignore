@@ -1,1 +1,24 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Log files
 *.log
+
+# Compiled binaries (built by make)
+agent/agent-001
+agent/agent-002
+user/cli
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS junk
+.DS_Store
+
+# Editor folders
+.vscode/
+.idea/
